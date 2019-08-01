@@ -15,3 +15,9 @@
 ## Postman, Show list of Employee recoreds from database table
 	- Hit in browser, http://localhost:3000/api/v1/employees
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-01 18-21-18.png"></img></kbd>
+
+
+---
+## Postman, Show Employee data by ID
+	- Hit in browser, http://localhost:3000/api/v1/employees/3
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-01 18-41-54.png"></img></kbd>
