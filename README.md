@@ -1,4 +1,4 @@
-# Project Name
+# API in Rails
 
 ---
 ## Software Requirements
@@ -6,6 +6,12 @@
 
 
 ---
-## OutPut of File: FileName.html
-	- Some description..
-<kbd><img src="/imgs-readme/img-black-blank_v1-1.jpg" alt="img_alternative_txt_v1-1" title="hover_title.."></img></kbd>
+## Default Page
+	- Hit in browser, http://localhost:3000/
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-01 15-37-35.png"></img></kbd>
+
+
+---
+## Postman, Show list of Employee recoreds from database table
+	- Hit in browser, http://localhost:3000/api/v1/employees
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-01 18-21-18.png"></img></kbd>
