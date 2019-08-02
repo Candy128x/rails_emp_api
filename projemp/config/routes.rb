@@ -5,4 +5,6 @@ Rails.application.routes.draw do
       resources :employees
     end
   end
+
+  get "/api/v1/employees_age_gte_23" => "api/v1/employees#age_gte_23"
 end

@@ -36,6 +36,11 @@ module Api
                 end
             end
 
+            def age_gte_23
+                employee = Employee.where("age >= ?", 23).order(age: :desc)
+                render json: {status: 'SUCCESS', message: 'Where employee age grater than equal to 23, Those Data will be loaded', data: employee}, status: :ok
+            end
+
             private
             def employee_params
                 params.permit(:first_name, :last_name, :username, :age, :dob, :address, :email_id, :contact_no, :extra)

@@ -59,3 +59,9 @@
 ## PostgreSQL, Update employee data (gif img)
 	- Hit in browser, http://localhost:3000/api/v1/employees/2
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-31-43_v2-1.gif"></img></kbd>
+
+
+---
+## Postman, Fetch data where age grater than equal to 23
+	- Hit in browser, http://localhost:3000/api/v1/employees_age_gte_23
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 18-15-08.png"></img></kbd>
