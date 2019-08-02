@@ -350,7 +350,7 @@ update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:for
 ## Migration | Update column data type
 
 ### Crate migration file
-- rails g migration change_contact_no_to_be_bigint_in_employees
+- => rails g migration change_contact_no_to_be_bigint_in_employees
 - op:
 ```
 Running via Spring preloader in process 14427
