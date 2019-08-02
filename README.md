@@ -21,3 +21,15 @@
 ## Postman, Show Employee data by ID
 	- Hit in browser, http://localhost:3000/api/v1/employees/3
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-01 18-41-54.png"></img></kbd>
+
+
+---
+## Postman, Add employee data
+	- Hit in browser, http://localhost:3000/api/v1/employees
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 11-40-23.png"></img></kbd>
+
+
+---
+## Postman, Add employee data, Error
+	- Hit in browser, http://localhost:3000/api/v1/employees
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 11-41-07.png"></img></kbd>
