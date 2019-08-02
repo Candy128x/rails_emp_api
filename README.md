@@ -33,3 +33,15 @@
 ## Postman, Add employee data, Error
 	- Hit in browser, http://localhost:3000/api/v1/employees
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-02 11-41-07.png"></img></kbd>
+
+
+---
+## Postman, Delete employee data
+	- Hit in browser, http://localhost:3000/api/v1/employees
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-15-46.png"></img></kbd>
+
+
+---
+## Postman, Delete employee data, Which not exist
+	- Hit in browser, http://localhost:3000/api/v1/employees
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-18-29.png"></img></kbd>

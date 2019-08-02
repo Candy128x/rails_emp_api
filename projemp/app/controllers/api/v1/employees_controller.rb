@@ -21,6 +21,12 @@ module Api
                 end
             end
 
+            def destroy
+                employee = Employee.find(params[:id])
+                employee.destroy
+                render json: {status: 'SUCCESS', message: 'Deleted Employee Data', data: employee}, status: :ok
+            end
+
             private
             def employee_params
                 params.permit(:first_name, :last_name, :username, :age, :dob, :address, :email_id, :contact_no, :extra)
