@@ -347,4 +347,31 @@ update_rails_disk_service PUT    /rails/active_storage/disk/:encoded_token(.:for
 
 
 ---
+## Migration | Update column data type
+
+### Crate migration file
+- rails g migration change_contact_no_to_be_bigint_in_employees
+- op:
+```
+Running via Spring preloader in process 14427
+      invoke  active_record
+      create    db/migrate/20190802092149_change_contact_no_to_be_bigint_in_employees.rb
+```
+
+### Edit migrate file
+- open/edit `db/migrate/20190802092149_change_contact_no_to_be_bigint_in_employees.rb` file
+- write `change_column :employees, :contact_no, :bigint` after `def change`
+
+### Hit Commands
+- => rake db:migrate
+- op:
+```
+== 20190802092149 ChangeContactNoToBeBigintInEmployees: migrating =============
+-- change_column(:employees, :contact_no, :bigint)
+   -> 0.4285s
+== 20190802092149 ChangeContactNoToBeBigintInEmployees: migrated (0.4287s) ====
+```
+
+
+---
 - 
