@@ -45,3 +45,15 @@
 ## Postman, Delete employee data, Which not exist
 	- Hit in browser, http://localhost:3000/api/v1/employees
 <kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-18-29.png"></img></kbd>
+
+
+---
+## Postman, Update employee data
+	- Hit in browser, http://localhost:3000/api/v1/employees/2
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-31-43.png"></img></kbd>
+
+
+---
+## PostgreSQL, Update employee data (gif img)
+	- Hit in browser, http://localhost:3000/api/v1/employees/2
+<kbd><img src="/imgs-readme/Screenshot from 2019-08-02 12-31-43_v2-1.gif"></img></kbd>
